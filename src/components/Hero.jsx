@@ -21,7 +21,7 @@ export default function Hero() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, staggerChildren: 0.3 },
+      transition: { duration: 0.8, staggerChildren: 0.3 },
     },
   };
 
@@ -30,13 +30,13 @@ export default function Hero() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6 },
+      transition: { duration: 0.8 },
     },
   };
 
   const imageVariants = {
     hidden: { opacity: 0, scale: 0.8 },
-    visible: { opacity: 1, scale: 1, transition: { duration: 0.6 } },
+    visible: { opacity: 1, scale: 1, transition: { duration: 1.5 } },
   };
 
   return (

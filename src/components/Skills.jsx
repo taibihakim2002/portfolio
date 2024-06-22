@@ -22,7 +22,7 @@ export default function Skills() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, staggerChildren: 0.3 },
+      transition: { duration: 0.9, staggerChildren: 0.3 },
     },
   };
 
@@ -33,7 +33,7 @@ export default function Skills() {
       y: 0,
       scale: 1,
       rotate: 0,
-      transition: { duration: 0.6 },
+      transition: { duration: 0.9 },
     },
   };
 
