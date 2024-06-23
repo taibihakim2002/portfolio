@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import {
   Sheet,
@@ -9,12 +10,36 @@ import {
 } from "@/components/ui/sheet";
 
 export default function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="flex justify-between items-center h-[80px] w-full fixed top-0 z-50 px-10 md:px-20 text-white uppercase">
-      <div>
+      <div
+        className={`absolute inset-0 transition-opacity duration-300 ${
+          isScrolled ? "bg-[#191919]/80" : "bg-transparent"
+        }`}
+      ></div>
+      <div className="relative z-10">
         <h2 className="font-bold text-lg">Taibi Abdelhakim</h2>
       </div>
-      <ul className="gap-20 hidden lg:flex">
+      <ul className="relative z-10 gap-20 hidden lg:flex">
         <li>
           <a href="#">About</a>
         </li>
@@ -25,7 +50,7 @@ export default function Header() {
           <a href="#">Contact</a>
         </li>
       </ul>
-      <div className="text-xl lg:hidden">
+      <div className="relative z-10 text-xl lg:hidden">
         <Sheet>
           <SheetTrigger>
             <IoMenu />

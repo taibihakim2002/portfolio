@@ -59,10 +59,10 @@ export default function Skills() {
           initial="hidden"
           animate={controls}
           variants={containerVariants}
-          className="flex-1 flex flex-col lg:flex-row gap-x-20 items-center justify-center py-14"
+          className="flex flex-col lg:flex-row gap-x-20 items-center justify-center py-14"
         >
           <motion.div variants={itemVariants} className="lg:w-1/2 lg:order-1">
-            <h2 className="text-[22px] md:text-[30px] font-bold tracking-[7px]">
+            <h2 className="text-[20px] md:text-[30px] font-bold tracking-[7px]">
               I am A Frontend Developer
             </h2>
             <p className="text-[14px] md:text-[16px] tracking-[2px] md:tracking-[3px] lowercase font-light lg:mb-10">
@@ -74,28 +74,36 @@ export default function Skills() {
                 <span className=" text-gray-500 block font-bold">19%</span>
                 <div className="flex gap-3 items-center">
                   <Progress value={19} />
-                  <span className="text-[18px] font-light">HTML</span>
+                  <span className="text-[16px] md:text-[18px] font-light">
+                    HTML
+                  </span>
                 </div>
               </motion.div>
               <motion.div variants={progressVariants} className="mb-2">
                 <span className=" text-gray-500 block font-bold">70%</span>
                 <div className="flex gap-3 items-center">
                   <Progress value={70} />
-                  <span className="text-[18px] font-light">CSS</span>
+                  <span className="text-[16px] md:text-[18px] font-light">
+                    CSS
+                  </span>
                 </div>
               </motion.div>
               <motion.div variants={progressVariants} className="mb-2">
                 <span className=" text-gray-500 block font-bold">50%</span>
                 <div className="flex gap-3 items-center">
                   <Progress value={50} />
-                  <span className="text-[18px] font-light">JS</span>
+                  <span className="text-[16px] md:text-[18px] font-light">
+                    JS
+                  </span>
                 </div>
               </motion.div>
               <motion.div variants={progressVariants} className="mb-5">
                 <span className=" text-gray-500 block font-bold">65%</span>
                 <div className="flex gap-3 items-center">
                   <Progress value={65} />
-                  <span className="text-[18px] font-light">REACT</span>
+                  <span className="text-[16px] md:text-[18px] font-light">
+                    REACT
+                  </span>
                 </div>
               </motion.div>
               <motion.button

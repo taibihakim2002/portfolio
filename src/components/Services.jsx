@@ -56,7 +56,7 @@ export default function Services() {
               />
             </div>
             <h2 className="text-center tracking-[5px] mb-5">Web Development</h2>
-            <p className="lowercase text-[#999]">
+            <p className="lowercase text-[#999] text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
               sint ratione corrupti. Aliquam deleniti porro odit et,
             </p>
@@ -73,7 +73,7 @@ export default function Services() {
               />
             </div>
             <h2 className="text-center tracking-[5px] mb-5">UI/UX Design</h2>
-            <p className="lowercase text-[#999]">
+            <p className="lowercase text-[#999] text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
               sint ratione corrupti. Aliquam deleniti porro odit et,
             </p>
@@ -90,7 +90,7 @@ export default function Services() {
               />
             </div>
             <h2 className="text-center tracking-[5px] mb-5">Edit Websites</h2>
-            <p className="lowercase text-[#999]">
+            <p className="lowercase text-[#999] text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
               sint ratione corrupti. Aliquam deleniti porro odit et,
             </p>
@@ -109,7 +109,7 @@ export default function Services() {
             <h2 className="text-center tracking-[5px] mb-5">
               Mobile App Development
             </h2>
-            <p className="lowercase text-[#999]">
+            <p className="lowercase text-[#999] text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
               sint ratione corrupti. Aliquam deleniti porro odit et,
             </p>
