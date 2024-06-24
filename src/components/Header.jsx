@@ -40,14 +40,17 @@ export default function Header() {
         <h2 className="font-bold text-lg">Taibi Abdelhakim</h2>
       </div>
       <ul className="relative z-10 gap-20 hidden lg:flex">
-        <li>
-          <a href="#">About</a>
+        <li className="hover:text-main transition hover:scale-105">
+          <a href="#skills">Skills</a>
         </li>
-        <li>
-          <a href="#">Portfolio</a>
+        <li className="hover:text-main transition hover:scale-105">
+          <a href="#services">Services</a>
         </li>
-        <li>
-          <a href="#">Contact</a>
+        <li className="hover:text-main transition hover:scale-105">
+          <a href="#projects">Projects</a>
+        </li>
+        <li className="hover:text-main transition hover:scale-105">
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="relative z-10 text-xl lg:hidden">
@@ -55,14 +58,21 @@ export default function Header() {
           <SheetTrigger>
             <IoMenu />
           </SheetTrigger>
-          <SheetContent>
-            <SheetHeader>
-              <SheetTitle>Are you absolutely sure?</SheetTitle>
-              <SheetDescription>
-                This action cannot be undone. This will permanently delete your
-                account and remove your data from our servers.
-              </SheetDescription>
-            </SheetHeader>
+          <SheetContent className="bg-[#191919] text-white border-none">
+            <ul className="flex flex-col gap-5 mt-16 font-light text-[20px] tracking-widest">
+              <li className="hover:text-main transition hover:scale-105">
+                <a href="#skills">Skills</a>
+              </li>
+              <li className="hover:text-main transition hover:scale-105">
+                <a href="#services">Services</a>
+              </li>
+              <li className="hover:text-main transition hover:scale-105">
+                <a href="#projects">Projects</a>
+              </li>
+              <li className="hover:text-main transition hover:scale-105">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
           </SheetContent>
         </Sheet>
       </div>

@@ -34,7 +34,10 @@ export default function Contact() {
   };
 
   return (
-    <div className="w-full min-h-screen py-10 relative bg-no-repeat bg-cover bg-right after:absolute after:w-full after:h-full after:bg-black after:top-0 after:left-0 after:opacity-90">
+    <div
+      id="contact"
+      className="w-full min-h-screen py-10 relative bg-no-repeat bg-cover bg-right after:absolute after:w-full after:h-full after:bg-black after:top-0 after:left-0 after:opacity-90"
+    >
       <div className="text-white uppercase px-14 md:px-20 flex flex-col min-h-screen relative z-40">
         <motion.div
           ref={ref}

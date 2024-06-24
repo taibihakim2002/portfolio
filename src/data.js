@@ -1,0 +1,10 @@
+
+export const projects = [
+    { name: "Kds Academy Website", img: "imgs/kds.png", type: "Full Stack", description: "A complete platform for KDS Educational Academy with a professional control panel", tags: ["#NextJs"], live: "https://kds-project.vercel.app/", source: "https://github.com/taibihakim2002/kds-project" },
+    { name: "Prayer times website", img: "imgs/prayer.png", type: "Frontend", description: "A website that displays prayer times in all cities of Algeria using API ,The Ui Design is taken from Tarmiz Academy", tags: ["#react"], live: "https://prayert.netlify.app/", source: "https://github.com/taibihakim2002/Prayer-Times" },
+    { name: "Dz face Homepage", img: "imgs/dzface.png", type: "Frontend", description: "The Homepage of the social networking site dz face", tags: ["#React"], live: "https://dzface.netlify.app/", source: "https://github.com/taibihakim2002/dz-face" },
+    { name: "Bondi Template", img: "imgs/bondi.png", type: "Frontend", description: "Landing page of bondi template", tags: ["#html", "#css"], live: "https://taibihakim2002.github.io/Bondi-Template/", source: "https://github.com/taibihakim2002/Bondi-Template?tab=readme-ov-file" },
+    { name: "Kasper Template", img: "imgs/kasper.png", type: "Frontend", description: "Landing page of Kasper template", tags: ["#html", "#css"], live: "https://taibihakim2002.github.io/Kasper-Template/", source: "https://github.com/taibihakim2002/Kasper-Template" },
+    { name: "Loan Template", img: "imgs/loan.png", type: "Frontend", description: "Landing page of Loan template", tags: ["#html", "#css"], live: "https://taibihakim2002.github.io/Lean-Template/", source: "https://github.com/taibihakim2002/Lean-Template" },
+    { name: "Elzero Template", img: "imgs/elzero.png", type: "Frontend", description: "Landing page of Elzero template", tags: ["#html", "#css"], live: "https://taibihakim2002.github.io/Elzero-Template/", source: "https://github.com/taibihakim2002/Elzero-Template?tab=readme-ov-file" },
+]

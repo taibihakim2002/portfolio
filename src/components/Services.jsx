@@ -30,8 +30,11 @@ export default function Services() {
   };
 
   return (
-    <div className="bg-hero-bg w-full min-h-screen py-10 relative z-10 bg-no-repeat bg-cover bg-right after:absolute after:w-full after:h-full after:bg-black after:top-0 after:left-0 after:opacity-90">
-      <div className="text-white uppercase px-14 md:px-20 flex flex-col min-h-screen relative z-40">
+    <div
+      id="services"
+      className="bg-hero-bg w-full min-h-screen py-10 relative z-10 bg-no-repeat bg-cover bg-right after:absolute after:w-full after:h-full after:bg-black after:top-0 after:left-0 after:opacity-90"
+    >
+      <div className="text-white uppercase px-8 md:px-20 flex flex-col min-h-screen relative z-40">
         <div className="relative">
           <h2 className="text-[50px] lg:text-[100px] text-center py-10 tracking-[10px] font-bold opacity-10 ">
             Services

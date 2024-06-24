@@ -47,7 +47,10 @@ export default function Skills() {
   };
 
   return (
-    <div className="w-full min-h-screen relative z-10 bg-no-repeat bg-cover bg-right after:absolute after:w-full after:h-full after:bg-black after:top-0 after:left-0 after:opacity-90">
+    <div
+      id="skills"
+      className="w-full min-h-screen relative z-10 bg-no-repeat bg-cover bg-right after:absolute after:w-full after:h-full after:bg-black after:top-0 after:left-0 after:opacity-90"
+    >
       <div className="text-white uppercase px-14 md:px-20 flex flex-col min-h-screen relative z-50">
         <div className="relative">
           <h2 className="text-[50px] lg:text-[100px] text-center py-10 tracking-[10px] font-bold opacity-10">
@@ -62,20 +65,32 @@ export default function Skills() {
           className="flex flex-col lg:flex-row gap-x-20 items-center justify-center py-14"
         >
           <motion.div variants={itemVariants} className="lg:w-1/2 lg:order-1">
-            <h2 className="text-[20px] md:text-[30px] font-bold tracking-[7px]">
-              I am A Frontend Developer
+            <h2 className="text-[20px] md:text-[30px] font-bold tracking-[3px] capitalize mb-2">
+              I'am Taibi hakim
             </h2>
-            <p className="text-[14px] md:text-[16px] tracking-[2px] md:tracking-[3px] lowercase font-light lg:mb-10">
+            <h2 className="text-[12px] md:text-[16px] font-bold tracking-[2px] capitalize bg-main py-1 px-5 ps-2 w-fit rounded-full mb-2">
+              Frontend Developer
+            </h2>
+            <p className="text-[14px] md:text-[16px] tracking-[2px] md:tracking-[3px] lowercase font-light lg:mb-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
               explicabo fugit placeat eum deserunt velit consectetur atque
             </p>
             <div className="py-10">
               <motion.div variants={progressVariants} className="mb-2">
-                <span className=" text-gray-500 block font-bold">19%</span>
+                <span className=" text-gray-500 block font-bold">95%</span>
                 <div className="flex gap-3 items-center">
-                  <Progress value={19} />
+                  <Progress value={95} />
                   <span className="text-[16px] md:text-[18px] font-light">
                     HTML
+                  </span>
+                </div>
+              </motion.div>
+              <motion.div variants={progressVariants} className="mb-2">
+                <span className=" text-gray-500 block font-bold">80%</span>
+                <div className="flex gap-3 items-center">
+                  <Progress value={80} />
+                  <span className="text-[16px] md:text-[18px] font-light">
+                    CSS
                   </span>
                 </div>
               </motion.div>
@@ -84,25 +99,25 @@ export default function Skills() {
                 <div className="flex gap-3 items-center">
                   <Progress value={70} />
                   <span className="text-[16px] md:text-[18px] font-light">
-                    CSS
-                  </span>
-                </div>
-              </motion.div>
-              <motion.div variants={progressVariants} className="mb-2">
-                <span className=" text-gray-500 block font-bold">50%</span>
-                <div className="flex gap-3 items-center">
-                  <Progress value={50} />
-                  <span className="text-[16px] md:text-[18px] font-light">
                     JS
                   </span>
                 </div>
               </motion.div>
-              <motion.div variants={progressVariants} className="mb-5">
+              <motion.div variants={progressVariants} className="mb-2">
                 <span className=" text-gray-500 block font-bold">65%</span>
                 <div className="flex gap-3 items-center">
                   <Progress value={65} />
                   <span className="text-[16px] md:text-[18px] font-light">
                     REACT
+                  </span>
+                </div>
+              </motion.div>
+              <motion.div variants={progressVariants} className="mb-5">
+                <span className=" text-gray-500 block font-bold">75%</span>
+                <div className="flex gap-3 items-center">
+                  <Progress value={75} />
+                  <span className="text-[16px] md:text-[18px] font-light">
+                    next
                   </span>
                 </div>
               </motion.div>
