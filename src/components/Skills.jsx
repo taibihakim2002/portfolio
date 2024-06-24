@@ -72,8 +72,9 @@ export default function Skills() {
               Frontend Developer
             </h2>
             <p className="text-[14px] md:text-[16px] tracking-[2px] md:tracking-[3px] lowercase font-light lg:mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              explicabo fugit placeat eum deserunt velit consectetur atque
+              I am Taibi Hakim, a Frontend Developer skilled in HTML, CSS,
+              JavaScript, React, and Next.js. Check out my portfolio and
+              download my CV to see my work.
             </p>
             <div className="py-10">
               <motion.div variants={progressVariants} className="mb-2">
@@ -125,7 +126,9 @@ export default function Skills() {
                 variants={itemVariants}
                 className="px-10 py-2 bg-main rounded-full"
               >
-                Download CV
+                <a href="https://taibihakim.netlify.app/cv.pdf" target="_blank">
+                  Download CV
+                </a>
               </motion.button>
             </div>
           </motion.div>

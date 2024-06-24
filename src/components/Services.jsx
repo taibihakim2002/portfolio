@@ -60,8 +60,8 @@ export default function Services() {
             </div>
             <h2 className="text-center tracking-[5px] mb-5">Web Development</h2>
             <p className="lowercase text-[#999] text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-              sint ratione corrupti. Aliquam deleniti porro odit et,
+              Providing website updates and maintenance to improve
+              functionality, performance, and aesthetics.
             </p>
           </motion.div>
           <motion.div
@@ -75,10 +75,12 @@ export default function Services() {
                 alt=""
               />
             </div>
-            <h2 className="text-center tracking-[5px] mb-5">UI/UX Design</h2>
+            <h2 className="text-center tracking-[5px] mb-5">
+              Performance optimization
+            </h2>
             <p className="lowercase text-[#999] text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-              sint ratione corrupti. Aliquam deleniti porro odit et,
+              Enhancing website performance through optimization techniques to
+              ensure fast load times and smooth user interactions.
             </p>
           </motion.div>
           <motion.div
@@ -94,8 +96,8 @@ export default function Services() {
             </div>
             <h2 className="text-center tracking-[5px] mb-5">Edit Websites</h2>
             <p className="lowercase text-[#999] text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-              sint ratione corrupti. Aliquam deleniti porro odit et,
+              Providing website updates and maintenance to improve
+              functionality, performance, and aesthetics.
             </p>
           </motion.div>
           <motion.div
@@ -110,11 +112,12 @@ export default function Services() {
               />
             </div>
             <h2 className="text-center tracking-[5px] mb-5">
-              Mobile App Development
+              Accessibility Improvements
             </h2>
             <p className="lowercase text-[#999] text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-              sint ratione corrupti. Aliquam deleniti porro odit et,
+              Ensuring websites are accessible to all users, including those
+              with disabilities, by adhering to accessibility standards and best
+              practices.
             </p>
           </motion.div>
         </motion.div>
