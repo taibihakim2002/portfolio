@@ -11,6 +11,7 @@ const skillIcons = [
   "imgs/react.webp",
   "imgs/nextjs.png",
   "imgs/shadcn.png",
+  "imgs/git.png",
 ];
 
 const skillVariants = {
@@ -34,7 +35,7 @@ export default function SkillsList() {
 
   return (
     <div
-      className="px-14 py-10 bg-main grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 justify-center gap-8"
+      className="px-14 py-10 bg-main grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-9 justify-center gap-8"
       ref={ref}
     >
       {skillIcons.map((icon, index) => (
